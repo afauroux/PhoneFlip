@@ -106,12 +106,12 @@ fun ListItem(name: String) {
         modifier = Modifier.fillMaxSize()
             .padding(12.dp)
     ){
-        Image(
-            painter = painterResource(id=R.drawable.baseline_person_24),
-            contentDescription="photo of a person",
-            modifier = Modifier.width(100.dp)
-                .height(100.dp)
-        )
+//        Image(
+//            painter = painterResource(id=R.drawable.ic_launcher_foreground),
+//            contentDescription="photo of a person",
+//            modifier = Modifier.width(100.dp)
+//                .height(100.dp)
+//        )
         Text(
             text=name,
             modifier=Modifier.padding(12.dp)
